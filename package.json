@@ -1,0 +1,34 @@
+{
+  "name": "help",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/index.js",
+  "scripts": {
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kooku/TimeSaver.git"
+  },
+  "author": "Ku Young Shin & Jason Fu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kooku/TimeSaver/issues"
+  },
+  "homepage": "https://github.com/Kooku/TimeSaver#readme",
+  "dependencies": {
+    "ava": "^0.17.0",
+    "component": "^1.1.0",
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
