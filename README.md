@@ -4,6 +4,8 @@ TODO: Write a project description
 
 ## Installation
 
+clone this repo
+run npm install
 Install it in chrome web store!
 
 ## Usage
